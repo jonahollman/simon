@@ -1,0 +1,182 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.outerCircle {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(50, 50, 50);
+  border: 5px solid black;
+  margin: auto;
+  border-radius: 50%;
+  padding: 1%;
+  box-shadow: 10px 10px 50px black;
+ }
+
+.buttonCircle {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  padding-top: 7px;
+}
+
+.button {
+  width: 45%;
+  height: 45%;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+}
+
+.innerCircle {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(200, 200, 200);
+  display: block;
+  margin: auto;
+  margin-top: -440px;
+  z-index = 1;
+  border-radius: 50%;
+  position: relative;
+  border: 15px solid rgb(50, 50, 50);
+}
+
+#button1 {
+  border-radius: 100% 0 0 0;
+  background-color: green;
+}
+
+#button1:active, #button2:active, #button3:active, #button4:active {
+  opacity: 0.4;
+}
+
+#button2 {
+  border-radius: 0 100% 0 0;
+  background-color: red;
+}
+
+#button3 {
+  border-radius: 0 0 0 100%;
+  background-color: yellow;
+}
+
+#button4 {
+  border-radius: 0 0 100% 0;
+  background-color: blue;
+}
+
+.gameName {
+  font-size: 3.2em;
+  margin-top: 15px;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+.patternCount {
+  display: block;
+  margin: 0 auto;
+}
+
+.countDisplay {
+  background-color: rgb(50, 50, 50);
+  border: 2px solid black;
+  width: 40%;
+  height: 50px;
+  margin: 0 auto 10px auto;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2.5em;
+  border-radius: 5px;
+}
+
+.startButton {
+  display: inline-block;
+  float: left;
+  height: 55px;
+  width: 55px;
+  font-size: 1em;
+  margin-left: 35px;
+  border: 2px solid rgb(50, 50, 50);
+  background-color: white;
+  border-radius: 50%;   
+  outline: none;
+}
+
+.strictButton {
+  display: inline-block;
+  float: right;
+  height: 55px;
+  width: 55px; 
+  margin-right: 35px;
+  background-color: white;
+  font-size: 1em;
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 50%;
+  outline: none;
+}
+
+.startButton:active, .strictButton:active {
+  transform: translate(0px, 3px);
+}
+
+.onOffSwitch {
+  display: block;
+  width: 70%;
+  margin: 70px auto 5px auto;
+}
+
+.onLabel {
+  display: inline-block;
+  height: 90%;
+}
+
+.onOffToggle {
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.activeToggle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.offLabel {
+  display: inline-block;
+}
+
+.gameWon {
+  width: 90%;
+  height: 200px;
+  display: none;
+  margin: auto;
+  text-align: center;
+  background-color: gray;
+  line-height: 150px;
+  font-size: 5em;
+  opacity: 0.95;
+  margin-top: -420px;
+  border-radius: 20px;
+}
+
+.restartButton {
+  display: block;
+  width: 20%;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid black;
+  margin: auto;
+  cursor: pointer;
+}
